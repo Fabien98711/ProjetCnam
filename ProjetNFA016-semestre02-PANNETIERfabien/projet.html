@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Projet NFA016</title>
+    <meta name="author" content="Fabien Panetier">
+    <link rel="stylesheet" href="projet.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body> 
+   
+    <section class="section1">
+        <header class="up">
+            <h2>fla<h2 style="color:blue">kit</h2></h2>
+            <ul class="menuUp">
+                <li>intro</li>
+                <li>Homepage</li>
+                <li>Misc</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
+            <aside>
+                <nav>
+                    <ul class="logos">
+                        <li><a href="#" id="facebookLogo"><img src="ressources/logoFacebook.png"></a></li>
+                        <li><a href="#" id="twitterLogo"><img src="ressources/logoTwitter.png"></a></li>
+                        <li><a href="#" id="googleLogo"><img src="ressources/logoGoogle.png"></a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </header>
+        <body>
+            <div class="contenu image">
+                
+                <form class='contact_form'action='http://www.action-creation.fr/cnam/HTML_CSS/chapitre4/validateForm.php'method='post'name='contact_form'target='_blank'>
+                    <fieldset>
+                    <h2>FREE CONSULTING</h2>
+                   
+                    <ul class="formulaire">
+                        <li>
+                            <label for="l_nom">YOUR NAME</label>
+                            <input type="text" name="nom" id="l_nom" required="" placeholder="enter your name">
+                        </li>	
+                        
+                        <li>
+                            <label for="l_prenom">YOUR E-MAIL</label>
+                            <input type="email" name="yourEmail" id="l_mail" required="" placeholder="enter your email adress">
+                        </li>
+    
+                        <li>
+                            <label for="l_prenom">YOUR PHONE</label>
+                            <input type="tel" name="yourPhone" id="l_phone" required="" placeholder="enter your phone number">
+                        </li>
+    
+                        <li>
+                            <button id="button1" class="validationButton" type="submit">APPLY NOW</button>
+                        </li>
+                    </fieldset>
+                    </form>
+            </div>
+        </body>
+    </section> 
+    <section class="down">
+        <header>
+            <p class="titreSec2">OUR SERVICE</p>
+            <h2>WHAT WE DO</h2>
+        </header>
+        <div class="contenu">
+            <body class="bodyDown">
+                    <ul class="menuDown">
+                        <li class="active">1.Financial Planning</li>
+                        <li>2.Investment Advisor</li>
+                        <li>3.Saving Money</li>
+                        <li>4.Mortgage Advisor</li>
+                    </ul>
+                    <article>
+                        <div class="Jnsp">
+                            <img src="ressources/financialPlanning.jpg" class="imgJnsp">
+                        </div>
+                        <div class="descriptionText">
+                            <h2>Financial Planning</h2>
+                            <p>Cras dictum leo nec justo sollicitudin, quis aliquet sapien vestibulum. Vestibulum tempor facilisis imperdiet. Aliquam mattis facilisis rutrum. Morbi lacus massa, tempus a ipsum eget, fermentum facilisis dolor. Mauris porttitor leo</p>
+                            <p>non tincidunt. Praesent luctus, eros sed ullamcorper elementum, mauris justo molestie velit, eu feugiat.</p>
+                            
+
+                        </div>
+                    </article >
+
+                    <article>
+                        <div class="Jnsp">
+                            <img src="ressources/investmentAdvisor.jpg" class="imgJnsp">
+                        </div>
+                        <div class="descriptionText">
+                            <h2>Investment Advisor</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum nisi quam, in ornare velit sodales vel. Nam gravida ac arcu non tincidunt. Praesent luctus, eros sed ullamcorper elementum, mauris.</p>
+                            <p>Morbi tempor condimentum nunc, vitae venenatis ipsum tempor et. Aenean sed mollis quam, in congue neque.</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="Jnsp">
+                            <img src="ressources/savingMoney.jpg" class="imgJnsp">
+                        </div>
+                        <div class="descriptionText">
+                            <h2>Saving Money</h2>
+                            <p>Phasellus elit est, aliquet id molestie eu, semper ac dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam in aliquet odio. Aenean scelerisque elementum mi sit amet sodales.</p>
+                            <p>Nullam faucibus diam ut aliquam consectetur. Vestibulum sollicitudin elit condimentum nisi accumsan feugiat. Maecenas odio nisl.</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <div class="Jnsp">
+                            <img src="ressources/mortgageAdvisor.jpg" class="imgJnsp">
+                        </div>
+                        <div class="descriptionText">
+                            <h2>Mortgage Advisor</h2>
+                            <p>Donec sit amet metus pulvinar, finibus nisi pulvinar, tincidunt tortor. Praesent ut porta diam. Morbi eu fringilla dolor, sit amet consequat velit. Aenean finibus tempor fermentum. Duis congue eget magna in commodo.</p>
+                            <p>Nulla facilisi. Fusce porttitor sagittis tellus vitae tristique. Sed imperdiet fermentum sem, id egestas velit sagittis in. </p>
+                        </div>
+                    </article>
+            </body>
+            <button id="button2" class="validationButton" type="submit">GET A FREE QUOTE</button>
+        </div>
+        
+    </section>
+
+    <div class="popIn">
+        <div class="closePopIn">X</div>
+        <iframe src="https://www.facebook.com" class="facebookPopIn"></iframe>
+        <iframe src="https://www.twitter.com" class="twitterPopIn"></iframe>
+        <iframe src="https://www.google.com" class="googlePopIn"></iframe> 
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="projet.js" ></script> 
+</body>
+</html>
